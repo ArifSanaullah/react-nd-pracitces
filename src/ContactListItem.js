@@ -13,7 +13,7 @@ function ContactListItem({ contact, onDeleteContact }) {
       </div>
       <button
         className="contact-remove"
-        onClick={() => onDeleteContact(contact.id)}
+        onClick={() => onDeleteContact(contact)}
       >
         Button
       </button>
