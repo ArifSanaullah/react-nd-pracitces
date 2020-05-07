@@ -9,7 +9,7 @@ function ContactListItem({ contact, onDeleteContact }) {
       />
       <div className="contact-details">
         <p>{contact.name}</p>
-        <p>@{contact.handle}</p>
+        <p>{contact.handle}</p>
       </div>
       <button
         className="contact-remove"
